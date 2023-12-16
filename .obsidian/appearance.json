@@ -1,0 +1,9 @@
+{
+  "accentColor": "#01ff85",
+  "interfaceFontFamily": "Segoe UI Variable Text,Segoe UI,Segoe UI Variable Display,Segoe UI Variable Small",
+  "textFontFamily": "Source Sans Pro,Source Code Pro,Source Sans 3,Source Serif 4",
+  "monospaceFontFamily": "Consolas Nerd Font,FiraCode Nerd Font Mono Retina,VictorMono Nerd Font Mono,FiraCode Nerd Font Propo",
+  "baseFontSize": 17,
+  "translucency": true,
+  "cssTheme": "LYT Mode"
+}

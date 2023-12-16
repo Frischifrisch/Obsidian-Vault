@@ -1,0 +1,26 @@
+{
+  "provider": "openai-chatgpt",
+  "model": "gpt-3.5-turbo-1106",
+  "enable_by_default": false,
+  "keybind": "Tab",
+  "delay_ms": 2000,
+  "stream": true,
+  "accept": {
+    "splitter_regex": " ",
+    "display_splitter_regex": "[.?!:;]",
+    "completion_completeness_regex": ".*(?!p{L})[^d]$",
+    "min_accept_length": 4,
+    "min_display_length": 50,
+    "retrigger_threshold": 48
+  },
+  "provider_settings": {
+    "openai-chatgpt": {
+      "settings": "{\"api_key\":\"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\"}",
+      "models": {
+        "gpt-3.5-turbo-1106": "{\"system_prompt\":\"Ich bin bereit, Ihnen eine ausführliche Anregung zur Fertigstellung der Benutzernachricht zu geben. Ich werde meine Vorschläge in der Sprache der ursprünglichen Nachricht ausarbeiten. Ich werde nur die Ergänzung schreiben und nichts anderes. Ich werde den Text des Benutzers nicht in meiner Nachricht enthalten. Nur die Ergänzung.\",\"user_prompt\":\"Fortsetzen Sie Folgendes:\\n\\n{{prefix}}\"}"
+      }
+    }
+  },
+  "presets": [],
+  "fallback": null
+}
